@@ -1,0 +1,119 @@
+.searchbar-container {
+  display: flex;
+  align-items: start;
+  white-space: nowrap;
+}
+@media (max-width: 991px) {
+  .searchbar-container {
+    max-width: 100%;
+    white-space: initial;
+  }
+}
+.logo {
+  object-fit: auto;
+  object-position: center;
+  margin-top: 20px;
+  width: 329px;
+  max-width: 100%;
+}
+.options-container {
+  border-radius: 19px;
+  background-color: #181818;
+  display: flex;
+  margin-top: 6px;
+  justify-content: space-between;
+  padding: 13px 39px 13px 15px;
+  margin-left: auto;
+  gap: 40rem;
+}
+@media (max-width: 1600px) {
+  .options-container {
+    flex-wrap: wrap;
+    padding-right: 20px;
+    white-space: initial;
+    display: none;
+  }
+}
+
+.search {
+  height: 100%;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 40px;
+  margin: auto;
+}
+
+@media (max-width: 1000px) {
+  .search {
+    display: none;
+  }
+}
+
+.img-2 {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 15px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media (max-width: 991px) {
+  .user-info {
+    white-space: initial;
+  }
+}
+.bell {
+  object-fit: auto;
+  object-position: center;
+  width: 29px;
+  align-self: stretch;
+  margin: auto 0;
+}
+.user {
+  object-fit: auto;
+  object-position: center;
+  width: 44px;
+  height: 44px;
+  align-self: stretch;
+  border-radius: 50%;
+  margin: auto;
+}
+
+
+.user-container {
+  align-self: stretch;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0%;
+  flex-direction: column;
+  margin: auto 0;
+}
+@media (max-width: 991px) {
+  .user-container {
+    white-space: initial;
+  }
+}
+.user-name {
+  color: #404040;
+  font: 700 14px Nunito Sans, -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media (max-width: 991px) {
+  .user-name {
+    white-space: initial;
+  }
+}
+.user-type {
+  color: #565656;
+  margin-top: 9px;
+  font: 600 12px Nunito Sans, -apple-system, Roboto, Helvetica, sans-serif;
+}
